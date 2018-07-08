@@ -344,9 +344,10 @@ client.on('message', message => {
  message.author.sendMessage(`
  
  __~~Bot Staff~~__
-??
- __Powered By__: ??????M??#5683
-Server Support : https://discord.gg/8zRnMrt
+
+Owner:! AK ƦØĊƘĒŦMĀƝ#8193
+Support Server: https://discord.gg/9FUHdCn
+Streaming channel:https://www.twitch.tv/jerise12
 `);
 
 message.channel.send('**تم الارسال في الخاص**');
