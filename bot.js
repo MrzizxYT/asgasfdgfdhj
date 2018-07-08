@@ -363,7 +363,7 @@ client.on('message', message => {
  
 بامكانك دعوة البوت من هنا
 ***bot invite link: https://discordapp.com/api/oauth2/authorize?client_id=449945015490445325&permissions=8&scope=bot***
-Server Support : https://discord.gg/8zRnMrt
+Server Support : https://discord.gg/9FUHdCn
 `);
 
 message.channel.send('**تم الارسال في الخاص**');
