@@ -735,18 +735,6 @@ if(!message.channel.guild) return;
     }
 });
 
-client.on("guildMemberAdd", function(member) {
-    const wc = member.guild.channels.find("name", "welcome")
-        const embed = new Discord.RichEmbed()
-        .setColor('B90C0C')
-        .setAuthor(member.user.tag, member.user.avatarURL)
- .setDescription('*** اهلا بك في السيرفرانشالله يعجبك السيرفر. ***')
-.setThumbnail(member.avatarURL)
-  .setImage('https://cdn.discordapp.com/attachments/465260883426148372/465267577170690064/welcome_to_-_be.png')
-        .setTimestamp()
-         wc.sendEmbed(embed);
-        member.send(`منور السيرفر   ${member}`);
-        })
 
 
 
