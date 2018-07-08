@@ -831,4 +831,4 @@ const fs = require("fs");// npm i fs  بكج
 
 
 // THIS  MUST  BE  THIS  WAY
-client.login("process.env.BOT_TOKEN");
+client.login(process.env.BOT_TOKEN);
