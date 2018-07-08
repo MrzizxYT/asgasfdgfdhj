@@ -802,4 +802,4 @@ client.on("guildMemberAdd", (member) => {
     });
 });
 	
-client.login("NDQ5OTQ1MDE1NDkwNDQ1MzI1.DiNa4g.0Vs1cs_lpZ0IkHzon8kenZtz9Hk");
+client.login("process.env.BOT_TOKEN");
