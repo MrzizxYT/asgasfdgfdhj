@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const adminprefix = ".";
-const devs = ['431150885549113344','];
+const devs = ['431150885549113344','259750207321931777']
 const child_process = require("child_process");
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 client.on('ready', () => {
