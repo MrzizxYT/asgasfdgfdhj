@@ -362,7 +362,7 @@ client.on('message', message => {
  message.author.sendMessage(`
  
 بامكانك دعوة البوت من هنا
-***bot invite link: https://discordapp.com/oauth2/authorize?client_id=438579591355957248&permissions=8&scope=bot***
+***bot invite link: https://discordapp.com/api/oauth2/authorize?client_id=449945015490445325&permissions=8&scope=bot***
 Server Support : https://discord.gg/8zRnMrt
 `);
 
