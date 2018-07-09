@@ -820,10 +820,7 @@ const fs = require("fs");// npm i fs  بكج
 
 
 
-var dat = JSON.parse("{}");
-function forEachObject(obj, func) {
-    Object.keys(obj).forEach(function (key) { func(key, obj[key]) });
-}
+
 client.on("ready", () => {
     var guild;
     while (!guild)
@@ -835,11 +832,9 @@ client.on("ready", () => {
         });
     });
 });
-
-
-
-
-
+ 
+ 
+ 
 client.on("guildMemberAdd", (member) => {
     let channel = member.guild.channels.get("449162478413152258");
     if (!channel) {
@@ -858,27 +853,13 @@ client.on("guildMemberAdd", (member) => {
             var Inv = Invite.code;
             if (dat[Inv])
                 if (dat[Inv] < Invite.uses) {
- channel.send(`تم دعوته بواسطة  ${Invite.inviter} `) ;         
+ channel.send(`تم دعوته بواسطة  ${Invite.inviter} `) ;        
  }
             dat[Inv] = Invite.uses;
        
        });
     });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
